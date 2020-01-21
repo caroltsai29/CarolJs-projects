@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+body {
+    background-color: #42f584;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+}
+
+.light-bulb {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.light-bulb>img {
+    width: 15%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid 5px black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.button>img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #4fc97c;
+}
